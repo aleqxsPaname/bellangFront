@@ -20,21 +20,18 @@ function NavbarLesson() {
   return (
     // <div className="container-fluid">
     <div className="row">
-      <div className="col-3 col-md-2 d-flex justify-content-center box-button">
-        <Link className="button" to={previous}>
+      <div className="col-2 col-md-2 d-flex justify-content-center box-button">
+        <Link className="button stretched-link" to={previous}>
           PREVIOUS
         </Link>
       </div>
-      <div className="col-6 col-md-3 d-flex justify-content-center box-button">
+      <div className="col-8 col-md-3 d-flex justify-content-center box-button">
         LESSON TITLE
       </div>
-      <div className="col-3 col-md-2 d-flex justify-content-center box-button">
-        <Link className="button" to={next}>
+      <div className="col-2 col-md-2 d-flex justify-content-center box-button">
+        <Link className="button stretched-link" to={next}>
           NEXT
         </Link>
-      </div>
-      <div className="col-3 col-md-2 d-flex justify-content-center box-button">
-        TEXT
       </div>
       <div className="col-3 col-md-1 d-flex justify-content-center box-button">
         EX_1
@@ -44,6 +41,9 @@ function NavbarLesson() {
       </div>
       <div className="col-3 col-md-1 d-flex justify-content-center box-button">
         EX_3
+      </div>
+      <div className="col-3 col-md-2 d-flex justify-content-center box-button">
+        TEXT
       </div>
     </div>
     // </div>
