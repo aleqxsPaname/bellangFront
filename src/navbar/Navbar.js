@@ -41,6 +41,11 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className="nav-item">
+                    <Link to="/diaporama" className="nav-link">
+                      Diaporama Test
+                    </Link>
+                  </li>
+                  <li className="nav-item">
                     <a className="nav-link" href="#">
                       Contribute
                     </a>

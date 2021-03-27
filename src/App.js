@@ -7,6 +7,7 @@ import Navbar from "././navbar/Navbar";
 import Home from "././pages/Home";
 import Lesson from "././pages/Lesson";
 import LessonList from "././pages/LessonList";
+import Diaporama from "././pages/Diaporama";
 import Footer from "././footer/Footer";
 
 function App() {
@@ -19,8 +20,11 @@ function App() {
             <Route path="/lesson/:id">
               <Lesson />
             </Route>
-            <Route exact path="/units">
+            <Route path="/units">
               <LessonList />
+            </Route>
+            <Route path="/diaporama">
+              <Diaporama />
             </Route>
             <Route exact path="/">
               <Home />
