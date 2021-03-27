@@ -31,8 +31,8 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/lesson" className="nav-link">
-                      Lesson1
+                    <Link to="/lesson/1" className="nav-link">
+                      Lesson/Unit
                     </Link>
                   </li>
                   <li className="nav-item">

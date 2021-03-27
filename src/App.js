@@ -15,15 +15,12 @@ function App() {
         <Navbar />
         <div className="container">
           <Switch>
-            <Route path="/lesson">
+            <Route path="/lesson/:id">
               <Lesson />
             </Route>
             <Route exact path="/">
               <Home />
             </Route>
-            {/* <Route path="/dashboard">
-            <Dashboard />
-          </Route> */}
           </Switch>
 
           <Footer />

@@ -1,4 +1,10 @@
 .box-button {
-  background-color: grey;
-  border: solid 0.1em white;
+  background-color: green;
+  border-top: solid 0.1em white;
+  border-left: solid 0.1em white;
+  color: white;
+}
+
+.box-button .button {
+  color: white;
 }

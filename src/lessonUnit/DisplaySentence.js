@@ -1,6 +1,6 @@
 import React from "react";
 
-function DisplayLesson(props) {
+function DisplaySentence(props) {
   return (
     <>
       <p>
@@ -10,4 +10,4 @@ function DisplayLesson(props) {
   );
 }
 
-export default DisplayLesson;
+export default DisplaySentence;
