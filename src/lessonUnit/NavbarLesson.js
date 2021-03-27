@@ -25,7 +25,7 @@ function NavbarLesson() {
           PREVIOUS
         </Link>
       </div>
-      <div className="col-8 col-md-3 d-flex justify-content-center box-button">
+      <div className="col-8 col-md-3 d-flex justify-content-center box-nobutton">
         LESSON TITLE
       </div>
       <div className="col-2 col-md-2 d-flex justify-content-center box-button">

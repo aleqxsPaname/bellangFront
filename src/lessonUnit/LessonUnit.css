@@ -1,10 +1,15 @@
-.box-button {
+.box-button,
+.box-nobutton {
   background-color: green;
   border-top: solid 0.1em white;
   border-left: solid 0.1em white;
   color: white;
 }
 
-.box-button .button {
+.button {
   color: white;
+}
+
+.box-button:hover {
+  background-color: darkgreen;
 }

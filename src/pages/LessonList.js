@@ -2,15 +2,14 @@ import React from "react";
 
 import Lessons from ".././lessons/Lessons";
 import HeroSection from "../sections/HeroSection";
-import PurposeOfSite from "../sections/PurposeOfSite";
 
-function Home() {
+function LessonList() {
   return (
     <>
       <HeroSection />
-      <PurposeOfSite />
+      <Lessons />
     </>
   );
 }
 
-export default Home;
+export default LessonList;

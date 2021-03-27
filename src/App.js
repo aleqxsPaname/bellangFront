@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from "././navbar/Navbar";
 import Home from "././pages/Home";
 import Lesson from "././pages/Lesson";
+import LessonList from "././pages/LessonList";
 import Footer from "././footer/Footer";
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
           <Switch>
             <Route path="/lesson/:id">
               <Lesson />
+            </Route>
+            <Route exact path="/units">
+              <LessonList />
             </Route>
             <Route exact path="/">
               <Home />
