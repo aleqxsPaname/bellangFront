@@ -16,6 +16,7 @@ function Diaporama() {
             //   alt="placeholder 960"
             //   class="img-responsive"
           />
+          <p>this is the island picnic in the Maldive</p>
         </div>
       </div>
     </div>
