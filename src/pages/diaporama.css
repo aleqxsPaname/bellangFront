@@ -3,12 +3,19 @@
 }
 
 .overlay {
+  /* font-size: 1rem; */
   color: black;
   /* background: rgba(0, 0, 0, 0.4);  Black see-through */
   background: rgb(255, 255, 255, 0.8); /* Black see-through */
   position: absolute;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  span {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
 }
 
 /* .overlay:hover {
