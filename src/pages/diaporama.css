@@ -1,0 +1,43 @@
+.container-overlayed {
+  position: relative;
+}
+
+.overlay {
+  color: black;
+  /* background: rgba(0, 0, 0, 0.4);  Black see-through */
+  background: rgb(255, 255, 255, 0.8); /* Black see-through */
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* .overlay:hover {
+  background: rgba(255, 255, 255); /* Black see-through } 
+*/
+
+.top {
+  top: 1%;
+}
+.bottom {
+  bottom: 0%;
+  transform: translate(0%, -30%);
+}
+.left {
+  left: 0%;
+}
+.right {
+  right: 0%;
+}
+.centered-h {
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.centered-v {
+  top: 50%;
+  transform: translate(0%, 0%);
+}
+.centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
