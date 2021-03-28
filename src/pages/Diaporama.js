@@ -2,31 +2,25 @@ import React from "react";
 
 import "./diaporama.css";
 
+import diaporamas from ".././services/diaporama.json";
+
 function Diaporama() {
+  let numberOfSlide = diaporamas.length;
+  let diaporama = diaporamas[0];
+
   return (
     <div>
-      <h1>The Picnic Islands</h1>
+      <h1>The Picnic Islands (1/{numberOfSlide})</h1>
       <div className="container-overlayed">
         <div className="row fluid">
-          <img className="fluid" src="../images/img-2rs.png" width="100%" />
-          {/* <div className="col-2"> */}
-          <div className="top left overlay col-7">
-            <span className="top left overlay">
-              This is the picnic islands in the Maldive. Visited by over 2
-              millions tourists a year!
-            </span>
-          </div>
-          <div className="centered-v left overlay col-6">
-            <span className="centered-v left overlay">
-              White sand and palm trees make a nice spot for instagramers!
-            </span>
-          </div>
-          <div className="bottom right overlay col-7">
-            <span className="bottom right overlay">
-              But the islands are also a shelter for many species, such as the
-              great white shark...
-            </span>
-          </div>
+          <img className="fluid" src={diaporama.imgsource} width="100%" />
+          {diaporama.sentences.map((sentence) => (
+            <div
+              className={`overlay ${sentence.locationcol} ${sentence.location}`}
+            >
+              <span className={sentence.location}>{sentence.sentence}</span>
+            </div>
+          ))}
         </div>
       </div>
     </div>

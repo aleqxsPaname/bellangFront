@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1234,
+    "order": 1,
+    "title": "The Picnic Islands",
+    "imgsource": "../images/img-2rs.png",
+    "sentences": [
+      {
+        "id": 1,
+        "order": 1,
+        "location": "top left",
+        "locationcol": "col-7",
+        "sentence": "This is the picnic islands in the Maldive. Visited by over 2 millions tourists a year!"
+      },
+      {
+        "id": 2,
+        "order": 2,
+        "location": "centered-v left",
+        "locationcol": "col-6",
+        "sentence": "White sand and palm trees make a nice spot for instagramers!"
+      },
+      {
+        "id": 3,
+        "order": 3,
+        "location": "bottom right ",
+        "locationcol": "col-7 ",
+        "sentence": "But the islands are also a shelter for many species, such as the great white shark..."
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "order": 1,
+    "title": "The Picnic Islands and its species",
+    "imgsource": "../images/img-3rs.png",
+    "sentences": [
+      {
+        "id": 1,
+        "order": 1,
+        "location": "Type1",
+        "locationcol": "col-7",
+        "sentence": "The white shark can reach 5 meters in lenght."
+      },
+      {
+        "id": 2,
+        "order": 2,
+        "location": "Type1",
+        "locationcol": "col-7",
+        "sentence": "blablabla"
+      },
+      {
+        "id": 3,
+        "order": 3,
+        "location": "Type1",
+        "locationcol": "col-7",
+        "sentence": "blabalbla..."
+      }
+    ]
+  }
+]
