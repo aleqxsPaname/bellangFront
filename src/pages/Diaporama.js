@@ -10,7 +10,9 @@ function Diaporama() {
 
   return (
     <div>
-      <h1>The Picnic Islands (1/{numberOfSlide})</h1>
+      <h1>
+        {diaporama.title} (1/{numberOfSlide})
+      </h1>
       <div className="container-overlayed">
         <div className="row fluid">
           <img className="fluid" src={diaporama.imgsource} width="100%" />
